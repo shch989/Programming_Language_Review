@@ -1,65 +1,65 @@
-# # 반복문
-# fruits = ["Apple", "Peach", "Pear"]
-# for fruit in fruits:
-#   print(fruit)
-#   print(fruit + " Pie")
-# print(fruits)
+# 반복문
+fruits = ["Apple", "Peach", "Pear"]
+for fruit in fruits:
+  print(fruit)
+  print(fruit + " Pie")
+print(fruits)
 
-# # 미션) 평균 높이
-# student_heights = input().split()
+# 미션) 평균 높이
+student_heights = input().split()
 
-# for n in range(0, len(student_heights)):
-#   student_heights[n] = int(student_heights[n])
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
 
-# total_height = sum(student_heights)
-# number_of_students = len(student_heights)
-# average_height = int(total_height / number_of_students)
+total_height = sum(student_heights)
+number_of_students = len(student_heights)
+average_height = int(total_height / number_of_students)
 
-# print(f"total height = {total_height}")
-# print(f"number of students = {number_of_students}")
-# print(f"average height = {average_height}")
+print(f"total height = {total_height}")
+print(f"number of students = {number_of_students}")
+print(f"average height = {average_height}")
 
-# # 미션) 가장 큰 수
-# student_scores = input().split()
-# for n in range(0, len(student_scores)):
-#   student_scores[n] = int(student_scores[n])
+# 미션) 가장 큰 수
+student_scores = input().split()
+for n in range(0, len(student_scores)):
+  student_scores[n] = int(student_scores[n])
 
-# highest_score = 0
+highest_score = 0
 
-# for score in student_scores:
-#   if score > highest_score:
-#     highest_score = score
+for score in student_scores:
+  if score > highest_score:
+    highest_score = score
 
-# print(highest_score)
+print(highest_score)
 
-# # Range 함수
-# for number in range(1, 11, 3):
-#   print(number)
+# Range 함수
+for number in range(1, 11, 3):
+  print(number)
 
-# total = 0 
-# for number in range(1, 101):
-#   total += number
-# print(total)
+total = 0 
+for number in range(1, 101):
+  total += number
+print(total)
 
-# # 미션) 짝수 더하기
-# target = int(input())
+# 미션) 짝수 더하기
+target = int(input())
 
-# even_sum = 0
-# for number in range(2, target + 1, 2):
-#   even_sum += number
-# print(even_sum)
+even_sum = 0
+for number in range(2, target + 1, 2):
+  even_sum += number
+print(even_sum)
 
-# # 미션) FizzBuzz
-# target = 100
-# for number in range(1, target + 1):
-#   if number % 3 == 0 and number % 5 == 0:
-#     print("FizzBuzz")
-#   elif number % 3 == 0:
-#     print("Fizz")
-#   elif number % 5 == 0:
-#     print("Buzz")
-#   else:
-#     print(number)
+# 미션) FizzBuzz
+target = 100
+for number in range(1, target + 1):
+  if number % 3 == 0 and number % 5 == 0:
+    print("FizzBuzz")
+  elif number % 3 == 0:
+    print("Fizz")
+  elif number % 5 == 0:
+    print("Buzz")
+  else:
+    print(number)
 
 # 프로젝트
 import random
